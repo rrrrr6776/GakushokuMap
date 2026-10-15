@@ -1,6 +1,6 @@
 from maps.AbstractGakushoku import AbstractGakushoku
 
-class GakushokuSample(AbstractGakushoku):
+class GakushokuTakato(AbstractGakushoku):
 
     def get_menu(self):
         return "すき家のチーズ牛丼"
