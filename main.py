@@ -1,6 +1,11 @@
+from maps.GakushokuSample import GakushokuSample
+from maps.Gakusyoku_k25120 import Gakusyoku_k25120
+# ↓のリストには、メンバーの各オススメ学食が格納されます。
+data = [GakushokuSample(),
+        Gakusyoku_k25120()
+         ]
 from maps.GakushokuTakato import GakushokuTakato
 
-# ↓のリストには、メンバーの各オススメ学食が格納されます。
 data = [GakushokuTakato(), ]
 
 for rank, d in enumerate(data, start=1):
