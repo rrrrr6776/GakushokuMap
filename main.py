@@ -4,6 +4,9 @@ from maps.Gakusyoku_k25120 import Gakusyoku_k25120
 data = [GakushokuSample(),
         Gakusyoku_k25120()
          ]
+from maps.GakushokuTakato import GakushokuTakato
+
+data = [GakushokuTakato(), ]
 
 for rank, d in enumerate(data, start=1):
     print(f"{rank}位: {d.get_menu()}")
