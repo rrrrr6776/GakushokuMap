@@ -1,7 +1,3 @@
-from maps.YuOsusume import YuOsusume
-
-# ↓のリストには、メンバーの各オススメ学食が格納されます。
-data = [YuOsusume(), ]
 from maps.GakushokuTakato import GakushokuTakato
 
 # ↓のリストには、メンバーの各オススメ学食が格納されます。
